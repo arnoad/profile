@@ -1,0 +1,120 @@
+img {
+  height: 170px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: #222831;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(172, 169, 166);
+  font-size: 17px;
+  line-height: 30px;
+}
+
+h1 {
+  color: #ddb24f;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+h2 {
+  color: #FFD369;
+  font-family: 'Varela', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+p {
+  padding: 10px;
+}
+
+.purple-btn {
+  padding: 12px;
+  background-color: #c4add3;
+  text-decoration: none;
+  color: #9477a6;
+  border-radius: 5px;
+  font-family: 'Open-sans', sans-serif;
+  font-size: 14;
+}
+
+.purple-btn:hover {
+  text-decoration: none;
+  background-color: #9477a6;
+  color: #c4add3;
+  transition: 1s ease;
+}
+
+/* li {
+  font-size: 35px;
+  color: antiquewhite;
+  padding: 0px;
+  margin: 10px;
+  transition: background-color 0.5s;
+} */
+
+ul {
+  padding: 0px;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* li:hover {
+  text-decoration: none;
+  color: #9477a6;
+  transition: 0.5s;
+} */
+
+.social-media-btn {
+  font-size: 35px;
+  color: rgb(172, 169, 166);
+  padding: 0px;
+  margin: 10px;
+  transition: background-color 0.5s;
+}
+
+.social-media-btn:hover {
+  text-decoration: none;
+  color: #9477a6;
+  transition: 0.5s;
+}
+
+.container {
+  width: 550px;
+  margin: auto;
+}
+
+.card {
+  background-color: #303842;
+  border: #ddb24f;
+  border-radius: 5px;
+  box-shadow: black;
+  text-align: center;
+  margin: 25px;
+  padding: 17px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
